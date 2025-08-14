@@ -1,5 +1,3 @@
-def main():
-
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -21,7 +19,3 @@ def merge(left, right):
     result.extend(left[i:])
     result.extend(right[j:])
     return result
-    
-
-if __name__ == "__main__":
-    main()
